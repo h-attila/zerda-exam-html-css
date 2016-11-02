@@ -8,6 +8,11 @@ main {
   max-width: 540px;
 }
 
+img {
+  flex: 0 0 180px;
+  width: 180px;
+}
+
 .duck-jane, .duck-john {
   display: flex;
   flex-wrap: wrap;
@@ -15,16 +20,11 @@ main {
   margin-top: 35px;
 }
 
-img {
-  flex: 0 0 180px;
-  width: 180px;
-}
-
 .text {
   background-color: #FFFFF1;
-  flex: 0 1 350px;
+  flex: 0 1 360px;
   border-left: 10px solid #556392;
-  padding: 20px;
+  padding: 20px 80px 20px 20px;
 }
 
 .duck-jane .text {
@@ -43,12 +43,10 @@ p, th, td {
   text-align: justify;
 }
 
-th {
-  width: 100px;
+p {
+  line-height: 1.3em;
 }
 
-.edit-icon {
-  background-image: url("images/edit-icon.png");
-  background-repeat: no-repeat;
-  width: 50px;
+th {
+  width: 100px;
 }
