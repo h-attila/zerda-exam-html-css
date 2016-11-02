@@ -81,6 +81,12 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
+Answer:
+  The position is:
+    - top: 40px
+    - left: 40px
+    Because absolute positioning places to the nearest parent element whitch position is NOT static. At this case the "bar" yellow box positioned to the "foo" object, because it's the parent object, and it's positioning is absolute (not static). It means the foo positioned to the body (top:20px, left: 20px), and the "bar" object positioned to the "foo" (plus more top: 20px, left: 20px).
+
 
 
 ## 3. Explain concepts (~15 minutes) [4 points]
@@ -89,7 +95,11 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
+Answer: Block element is kind of box, it is fill the whole horizontal space, the whole line. It means only one elements can be in one row. The next element comes belong to this block element.
+Inline elements (eg.: link) can be next to us. They has no spaces around them (eg. margin, padding), so you can plase more inline elements in a single row.
+inline-block contains the property of the inline and block elements. They are also blocks, but can place next to each other.
 
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+Answer: Arcticle is a part of text, (eg. a blog text, web blog or comment), section is a bigger part of the page (e.g. a main page). It means a section can contain more articles. A good arcticle name is "Bibliography about Margaret Hamilton".
