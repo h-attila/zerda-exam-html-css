@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  margin: 0px auto;
+  max-width: 540px;
+}
+
+.duck-jane, .duck-john {
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  margin-top: 35px;
+}
+
+img {
+  flex: 0 0 180px;
+  width: 180px;
+}
+
+.text {
+  background-color: #FFFFF1;
+  flex: 0 1 350px;
+  border-left: 10px solid #556392;
+  padding: 20px;
+}
+
+.duck-jane .text {
+  background-color: #ACB8DF;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+p, th, td {
+  font-size: 14px;
+  text-align: justify;
+}
+
+th {
+  width: 100px;
+}
+
+.edit-icon {
+  background-image: url("images/edit-icon.png");
+  background-repeat: no-repeat;
+  width: 50px;
+}
